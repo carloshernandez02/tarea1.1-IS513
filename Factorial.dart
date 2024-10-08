@@ -1,6 +1,6 @@
 import 'dart:math';
 void main(){
-  final int factor = Random().nextInt(26);
+  final int factor = Random().nextInt(21);
   print('El factorial de $factor es '+Factorial(factor).toString());
 }
 int multiplicador(int a, int b){
