@@ -19,7 +19,6 @@ int Factorial(int factor){
     factorial=multiplicador(factorial, i);
   
   return factorial;
-  
 }
 
 
