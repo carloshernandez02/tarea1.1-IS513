@@ -5,7 +5,7 @@ void main(){
     lista.add(Random().nextInt(70)); 
   
   print("la suma de la lista $lista es ${Suma(lista: lista)}");
-
+  print('Suma con .reduce() : ${lista.reduce((a,b)=>a+b)}');
 }
 
 int Suma({required List<int> lista}){
@@ -14,5 +14,5 @@ int Suma({required List<int> lista}){
     acumulado+=lista[i];
   }
   return acumulado;
-  //return lista.reduce((a,b)=>a+b);
+  //return lista.reduce((a,b)=>a+b); pense usar este primero pero preferi sumar con un for para que se vea mas codigo jaja
 } 

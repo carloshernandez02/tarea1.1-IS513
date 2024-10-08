@@ -7,7 +7,7 @@ void main(){
 int multiplicador(int a, int b){
   int sum = 0;
   for(int i=0;i<b;i++)  
-    sum+=a;
+    sum+=a; // a se suma b veces
   return sum;
 }
 

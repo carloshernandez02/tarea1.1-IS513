@@ -2,7 +2,7 @@ import 'dart:math';
 void main(){
   List<int> lista=[];
   for(int i=0;i<Random().nextInt(16)+2; i++)
-    lista.add(Random().nextInt(70)); 
+    lista.add(Random().nextInt(70)); //Lista aleatoria de al menos 2 elementos
 
   int menor = lista.first;
     for(int i=0; i<lista.length;i++){

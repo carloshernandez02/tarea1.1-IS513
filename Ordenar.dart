@@ -2,7 +2,7 @@ import 'dart:math';
 void main(){
   List<int> lista=[];
   for(int i=0;i<Random().nextInt(32)+2; i++)
-    lista.add(Random().nextInt(100)); 
+    lista.add(Random().nextInt(100)); // Creando lista aleatoria con al menos 2 valores
   print('Lista: $lista');
   print('Orden ascendente:'+Ordenar(lista:lista, orden:true).toString());
   
