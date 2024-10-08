@@ -9,6 +9,7 @@ void main(){
   
   for(int i=0;i<lista.length;i++)
     suma+=lista[i];
+  
   print("Suma de lista es: $suma");
   
 }

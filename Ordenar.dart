@@ -11,8 +11,8 @@ void main(){
 
 List<int> Ordenar({required List<int> lista, required bool orden}){
   if(orden)
-    lista.sort();
+    lista.sort(); //dart ordena de forma ascendente por defecto con la funcion .sort();
   else
-    lista.sort((a, b) => b.compareTo(a));
+    lista.sort((a, b) => b.compareTo(a)); //enviando "(a, b) => b.compareTo(a)" como parametro en sort ordena la lista de forma descendente
   return lista;
 }

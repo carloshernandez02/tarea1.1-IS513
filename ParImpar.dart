@@ -6,6 +6,4 @@ void main(){
     print("$a es par");
   else
     print("$a es impar");
-  
-  
 }

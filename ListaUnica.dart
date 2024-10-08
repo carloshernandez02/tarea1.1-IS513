@@ -4,8 +4,8 @@ void main(){
   int catcher;
   for(int i=0;i<Random().nextInt(20)+2; i++){
     catcher = Random().nextInt(35);
-    Random().nextBool() ? lista1.add(catcher): "" ;
-    lista1.add(catcher); //agrego 2 veces el mismo dato para garantizar repeticion
+    lista1.add(catcher);
+    Random().nextBool() ? lista1.add(catcher): "" ; //posibilidad aleatoria de repetir el valor
   }
   print("$lista1");
   

@@ -1,7 +1,7 @@
 class Rectangulo {
   final double largo, ancho;
   //contructor
-  Rectangulo(this.largo,this.ancho);
+  Rectangulo({required this.largo , required this.ancho });
 
   //metodo
   double Area(){
