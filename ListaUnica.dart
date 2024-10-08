@@ -4,7 +4,7 @@ void main(){
   int catcher;
   for(int i=0;i<Random().nextInt(20)+2; i++){
     catcher = Random().nextInt(35);
-    lista1.add(catcher);
+    Random().nextBool() ? lista1.add(catcher): "" ;
     lista1.add(catcher); //agrego 2 veces el mismo dato para garantizar repeticion
   }
   print("$lista1");
