@@ -9,5 +9,6 @@ void main(){
       if(menor>lista[i])
         menor=lista[i];
     }
+  
   print('El numero menor de la lista $lista es $menor');
 }
