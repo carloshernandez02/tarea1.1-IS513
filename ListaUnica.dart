@@ -1,6 +1,6 @@
 import 'dart:math';
 void main(){
-  List<int> lista1=List.empty(growable: true);
+  List<int> lista1=[];
   int catcher;
   for(int i=0;i<Random().nextInt(20)+2; i++){
     catcher = Random().nextInt(35);
